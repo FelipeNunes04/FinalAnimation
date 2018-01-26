@@ -1,0 +1,19 @@
+else if (this.teclado.pressionada(SETA_CIMA)) {
+            /*if (! this.andando || this.direcao != SONIC_ESQUERDA) {
+            this.sheet.linha = 2;  // Atenção, aqui será 2!
+            this.sheet.coluna = 0;
+            }*/
+
+            this.sheet.proximoQuadro();
+            this.y -= 1; 
+        }
+
+        else if (this.teclado.pressionada(SETA_BAIXO)) {
+            /*if (! this.andando || this.direcao != SONIC_ESQUERDA) {
+            this.sheet.linha = 2;  // Atenção, aqui será 2!
+            this.sheet.coluna = 0;
+            }*/
+
+            this.sheet.proximoQuadro();
+            this.y += 1; 
+        }
